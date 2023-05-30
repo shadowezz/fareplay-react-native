@@ -46,3 +46,37 @@ To setup development for the mobile app, follow these steps:
    expo start --android
    ```
 
+## Building
+
+Building the `.apk` involves a series of detailed steps. We built our app on an Ubuntu OS and thus the steps below may have to be modified accordingly. This section also assumes that the installation steps above have been completed.
+
+1. If you have not done so, ensure your `.env`, `app.config.js` and `eas.json` files are configured for production.
+2. Download android sdk here with wget (https://developer.android.com/studio).
+3. Unzip and move the downloaded folder to `/usr/lib/android-sdk`.
+4. Create a new directory called `latest` inside this downloaded folder then copy all its contents into the newly created `latest` folder.
+5. Next, run the following command (note that command needs to be run on every new terminal session!):
+   ```bash
+   export ANDROID_HOME="/usr/lib/android-sdk"
+   ```
+6. Head into `/usr/lib/android-sdk/build_tools` and delete all folders other than debian (address the inconsistent location issue) - may not be necessary, ignore if you do not run into errors.
+7. Head into `/usr/lib/android-sdk/cmdline-tools/latest/bin` and type:
+   ```bash
+   sudo ./sdkmanager --licenses
+   ```
+8. Accept all licenses.
+9. Within the project directory, run:
+   ```bash
+   expo eject
+   ```
+10. Next, make `/usr/lib/android-sdk` writable by running:
+      ```bash
+      sudo chmod -R a+rw /usr/lib/android-sdk
+      ```
+11. Then, run: 
+      ```bash
+      expo prebuild --npm --clean
+      ```
+12. Finally, begin your local build with:
+      ```bash
+      eas build -p android --profile production --local
+      ```
