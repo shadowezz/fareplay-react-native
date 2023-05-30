@@ -1,0 +1,33 @@
+{
+    "translation": {
+		"header.home": "Home",
+		"header.profile": "Profile",
+		"header.edit_profile": "Edit Profile",
+
+		"title.available_rides": "Available Rides",
+
+		"field.name": "Name",
+		"field.email": "Email",
+		"field.contact_number": "Contact Number",
+		"field.language": "Language",
+		"field.unavailable": "Unavailable",
+		"field.start_location": "Start Location",
+		"field.end_location": "End Location",
+
+		"action.logout": "Logout",
+		"action.edit_profile": "Edit Profile",
+		"action.login": "Login",
+
+		"info.opening_page_to_edit_profile": "Opening page to edit profile.",
+
+		"success.login": "Login Successful!",
+		"success.logout": "Logout Successful!",
+		"success.edit_profile": "User details updated successfully!",
+
+		"error.login": "Incorrect Credentials",
+		"error.retrieve_data": "An error has occurred while retrieving data.",
+		"error.edit_profile": "Failed to update user details!",
+		"error.server_down": "The server is currently unavailable, please try again later.",
+		"error.no_fields_changed": "No fields have been changed, there is nothing to update."
+	}
+}

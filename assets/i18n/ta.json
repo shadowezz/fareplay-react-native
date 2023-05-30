@@ -1,0 +1,33 @@
+{
+	"translation": {
+		"header.home": "முகப்பு",
+		"header.profile": "சுயவிவரம்",
+		"header.edit_profile": "சுயவிவரத்தைத் திருத்து",
+
+		"title.available_rides": "கிடைக்கும் சுமார்",
+
+		"field.name": "பெயர்",
+		"field.email": "மின்னஞ்சல்",
+		"field.contact_number": "தொடர்பு எண்",
+		"field.language": "மொழி",
+		"field.unavailable": "கிடைக்கவில்லை",
+		"field.start_location": "தொடக்க இடம்",
+		"field.end_location": "முடிவு இடம்",
+
+		"action.logout": "வெளியேறு",
+		"action.edit_profile": "சுயவிவரத்தைத் திருத்து",
+		"action.login": "உள்நுழை",
+
+		"info.opening_page_to_edit_profile": "சுயவிவரத்தைத் திருத்த பக்கத்தைத் திறக்கிறது.",
+
+		"success.login": "உள்நுழைவு வெற்றிகரமாக!",
+		"success.logout": "வெளியேறு வெற்றிகரமாக!",
+		"success.edit_profile": "பயனர் விபரங்கள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன!",
+
+		"error.login": "தவறான சான்றுகள்",
+		"error.retrieve_data": "தரவைப் பெறுவதில் பிழை ஏற்பட்டுள்ளது.",
+		"error.edit_profile": "பயனர் விபரங்களைப் புதுப்பிக்க முடியவில்லை!",
+		"error.server_down": "தற்போது சேவையகம் கிடைக்கவில்லை, தயவுசெய்து பின்னர் முயலுங்கள்.",
+		"error.no_fields_changed": "எந்த புலங்களும் மாற்றப்படவில்லை, புதுப்பிக்க எதுவும் இல்லை."
+	}
+}

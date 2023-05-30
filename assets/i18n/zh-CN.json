@@ -1,0 +1,33 @@
+{
+	"translation": {
+		"header.home": "主页",
+		"header.profile": "个人资料",
+		"header.edit_profile": "编辑个人资料",
+
+		"title.available_rides": "可用行程",
+
+		"field.name": "姓名",
+		"field.email": "电子邮件",
+		"field.contact_number": "联系电话",
+		"field.language": "语言",
+		"field.unavailable": "不可用",
+		"field.start_location": "起始位置",
+		"field.end_location": "目的地",
+
+		"action.logout": "登出",
+		"action.edit_profile": "编辑个人资料",
+		"action.login": "登录",
+
+		"info.opening_page_to_edit_profile": "打开编辑个人资料页面。",
+
+		"success.login": "登录成功！",
+		"success.logout": "登出成功！",
+		"success.edit_profile": "用户详细信息更新成功！",
+
+		"error.login": "凭据不正确",
+		"error.retrieve_data": "检索数据时出错。",
+		"error.edit_profile": "无法更新用户详细信息！",
+		"error.server_down": "服务器当前不可用，请稍后重试。",
+		"error.no_fields_changed": "没有更改任何字段，无需更新。"
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"translation": {
+		"header.home": "Laman Utama",
+		"header.profile": "Profil",
+		"header.edit_profile": "Edit Profil",
+
+		"title.available_rides": "Pemanduan Tersedia",
+
+		"field.name": "Nama",
+		"field.email": "Emel",
+		"field.contact_number": "Nombor Telefon",
+		"field.language": "Bahasa",
+		"field.unavailable": "Tidak Tersedia",
+		"field.start_location": "Lokasi Mula",
+		"field.end_location": "Lokasi Akhir",
+
+		"action.logout": "Log Keluar",
+		"action.edit_profile": "Edit Profil",
+		"action.login": "Log Masuk",
+
+		"info.opening_page_to_edit_profile": "Membuka laman untuk mengedit profil.",
+
+		"success.login": "Log Masuk Berjaya!",
+		"success.logout": "Log Keluar Berjaya!",
+		"success.edit_profile": "Butiran pengguna berjaya dikemaskini!",
+
+		"error.login": "Kelayakan Tidak Sah",
+		"error.retrieve_data": "Ralat telah berlaku semasa mengambil data.",
+		"error.edit_profile": "Gagal mengemaskini butiran pengguna!",
+		"error.server_down": "Pelayan sedang tidak tersedia, sila cuba lagi kemudian.",
+		"error.no_fields_changed": "Tiada medan yang telah diubah, tidak ada yang perlu dikemaskini."
+	}
+}
